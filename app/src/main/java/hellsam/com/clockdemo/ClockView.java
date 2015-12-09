@@ -52,7 +52,7 @@ public class ClockView extends View {
             invalidate();
         }
     };
-    
+
     public ClockView(Context context) {
         super(context);
         init();
