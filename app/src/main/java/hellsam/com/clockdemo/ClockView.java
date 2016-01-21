@@ -139,7 +139,7 @@ public class ClockView extends View {
                 paintDegree.setStrokeWidth(3);
                 degreeLength = DEFAULT_SHORT_DEGREE_LENGTH;
             }
-            canvas.drawLine(getWidth()/2, Math.abs(getWidth()/2 - getHeight()/2), getWidth()/2, Math.abs(getWidth()/2 - getHeight()/2) + degreeLength, paintDegree);
+            canvas.drawLine(getWidth()/2, Math.abs(getHeight()/2 - r), getWidth()/2,Math.abs(getHeight()/2 - r) + degreeLength, paintDegree);
             canvas.rotate(360/60, getWidth()/2, getHeight()/2);
         }
 
